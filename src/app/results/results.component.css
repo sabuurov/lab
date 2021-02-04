@@ -1,0 +1,29 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+td, th {
+  border: 1px;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(1) {
+  background-color: #dddddd;
+}
+.button {
+  background-color: royalblue;
+  border: none;
+  color: white;
+  padding: 18px;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {border-radius: 8px;}
