@@ -1,7 +1,8 @@
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 60%;
+  width: 100%;
+  padding: 2px;
 }
 
 td, th {
@@ -22,8 +23,9 @@ tr:nth-child(1) {
   text-decoration: solid;
   display: inline-block;
   font-size: 13px;
-  margin: 4px 2px;
+  margin: 10px 4px;
   cursor: pointer;
 }
 
 .button2 {border-radius: 8px;}
+

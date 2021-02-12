@@ -1,15 +1,16 @@
-<h2>Add record</h2>
 <div>
-  <form>
-    <label for="date">Jogging date:</label>
-    <input type="text" id="date" name="date" placeholder="dd/mm/yyyy">
+  <h2>Add record</h2>
+  <form (ngSubmit)="items">
+    <label [(ngModel)]="date" for="date">Jogging date:</label>
+    <input type="text" id="date" name="date" placeholder="dd/mm/yyyy" >
 
     <label for="dis">Distance(m)</label>
-    <input type="text" id="dis" name="dis" placeholder="0">
+    <input [(ngModel)]="distance" type="text" id="dis" name="dis" placeholder="0">
 
     <label for="time">Time(s)</label>
-    <input type="text" id="time" name="time" placeholder="0">
-
+    <input [(ngModel)]="time" type="text" id="time" name="time" placeholder="0">
   </form>
+
+  <button class="button button1">Save</button>
+
 </div>
-<button class="button button1">Save</button>

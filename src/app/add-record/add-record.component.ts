@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddRecordComponent implements OnInit {
 
-  constructor() { }
-
+  constructor() {
+  }
+  date = 'dd/mm/yyyy';
+  distance: number = 0;
+  time: number = 0;
+  items = Records;
   ngOnInit(): void {
   }
-
 }
+export class Records{
+  date = 'dd/mm/yyyy';
+  distance: number = 0;
+  time: number = 0;
+}
+
